@@ -1,0 +1,16 @@
+Adapun kedua model juga telah diuji untuk memprediksi energi ikat dari beberapa inti populer. Hasil prediksi tersebut dapat dilihat pada Tabel \ref{tabel:prediksi_energi_ikat_inti_populer}.
+\begin{table}[h]
+    \caption{Hasil prediksi energi ikat dari beberapa inti populer}
+    \label{tabel:prediksi_energi_ikat_inti_populer}
+    \centering
+\begin{tabular}{|l|c|cc|cc|}
+\hline
+\multicolumn{1}{|c|}{\multirow{2}{*}{Inti}} & \multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}\(B_{exp}\) (MeV) \\ \citep{wang2021ame}\end{tabular}} & \multicolumn{2}{c|}{GAM}                & \multicolumn{2}{c|}{GAMI-Net}           \\ \cline{3-6} 
+\multicolumn{1}{|c|}{}                      &                                                                     & \multicolumn{1}{c|}{\(\hat{B}\)}     & \(\Delta B\) & \multicolumn{1}{c|}{\(\hat{B}\)}     & \(\Delta B\) \\ \hline
+Uranium-235 (\(_{92}^{235}\textrm{U}\))                                 & 1783.865                                                            & \multicolumn{1}{c|}{1783.850} & -0.015  & \multicolumn{1}{c|}{1783.866} & 0.001   \\ \hline
+Plutonium-239 (\(_{94}^{239}\textrm{Pu}\))                               & 1806.916                                                            & \multicolumn{1}{c|}{1806.696} & -0.220  & \multicolumn{1}{c|}{1806.791} & -0.125  \\ \hline
+Americium-241 (\(_{95}^{241}\textrm{Am}\))                               & 1817.930                                                            & \multicolumn{1}{c|}{1817.857} & -0.073  & \multicolumn{1}{c|}{1817.808} & -0.122  \\ \hline
+Iodium-131 (\(_{53}^{131}\textrm{I}\))                                  & 1103.321                                                            & \multicolumn{1}{c|}{1103.386} & 0.065   & \multicolumn{1}{c|}{1103.407} & 0.086   \\ \hline
+Cobalt-60 (\(_{27}^{60}\textrm{Co}\))                                   & 524.806                                                             & \multicolumn{1}{c|}{524.747}  & -0.059  & \multicolumn{1}{c|}{524.879}  & 0.073   \\ \hline
+\end{tabular}
+\end{table}
